@@ -31,6 +31,7 @@ function DadosUsuario({ aoEnviar }) {
         id="senha"
         label="senha"
         type="password"
+        required
         variant="outlined"
         margin="normal"
         fullWidth
