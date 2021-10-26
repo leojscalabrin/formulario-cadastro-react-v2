@@ -33,7 +33,7 @@ function DadosEntrega({ aoEnviar }) {
         }}
         id="endereco"
         name="endereço"
-        label="Endereço"
+        label="Enderço"
         type="text"
         variant="outlined"
         margin="normal"
