@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import DadosPessoais from "./DadosPessoais";
 import DadosUsuario from "./DadosUsuario";
 import DadosEntrega from "./DadosEntrega";
-import { Typography } from "@material-ui/core";
+import { Typography, Stepper, Step, StepLabel } from "@material-ui/core";
 
 function FormularioCadastro({aoEnviar, validarCPF}) {
   const [etapaAtual, setEtapaAtual] = useState(0);
